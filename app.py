@@ -73,7 +73,8 @@ def prelim_check(led, motor, servo, infrared, ultrasonic, camera):
                 break
         led.ledIndex(0x08, 0, 255, 0)
         print("Ultrasonic sensor check complete")
-
+        print("Testing camera functions")
+        
         print("Preliminary checks complete")
 
     except KeyboardInterrupt:
@@ -112,6 +113,8 @@ def line_track(infrared, ultrasonic, motor, servo, led):
                 2000, 2000
             )  # Move forward as long as there isn't anything in the way
 
+def Inches(num):
+    pass
 
 def run():
     print("BatTank starting...")
