@@ -6,7 +6,7 @@ from ultrasonic import Ultrasonic
 from camera import Camera
 import time
 
-#written by Blake, Dante, Trenton
+#written by Blake Trott, Dante Littlejohn, Trenton Lewis
 def prelim_check(led, motor, servo, infrared, ultrasonic, camera):
     try:
         print("Testing motor...")
