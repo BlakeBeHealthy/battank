@@ -112,6 +112,8 @@ def line_track(infrared, ultrasonic, motor, servo, led):
                 2000, 2000
             )  # Move forward as long as there isn't anything in the way
 
+def Inches(num):
+    num = num/2.54 #CM to Inch conversion
 
 def run():
     print("BatTank starting...")
